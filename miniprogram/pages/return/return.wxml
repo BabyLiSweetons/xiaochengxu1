@@ -1,0 +1,5 @@
+<!--pages/return/return.wxml-->
+<view class="v1">
+  <text>活动发布成功!</text>
+</view>
+

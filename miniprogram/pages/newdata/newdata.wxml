@@ -1,0 +1,53 @@
+<form bindsubmit="submit">
+  <view>
+    <view class="cu-form-group margin-top">
+      <view class="title">标题</view>
+      <input placeholder="输入活动标题全称" name="title"></input>
+    </view>
+    <view class="cu-form-group margin-top">
+      <view class="title">时间</view>
+      <picker mode="date" value="{{date}}" start="1年1月1日" end="2019年11月15日" bindchange="bindDateChange">
+        <input class='' placeholder='请选择日期' value='{{date}}'></input>
+      </picker>
+      <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange">    
+        <input class='' placeholder='请选择开始时间' value='{{time}}'></input>
+      </picker> 
+    </view>
+    <view class="cu-form-group margin-top">
+      <view class="title">地点</view>
+      <input placeholder="输入活动具体地点" name="place"></input>
+    </view>
+    <view class="cu-form-group margin-top">
+      <view class="title">活动对象</view>
+     <picker name="object" value="{{object}}" range="{{objects}}" bindchange="bindObjectChange">    
+        {{objects[object]}}
+      </picker>
+    </view>
+    <view class="cu-form-group margin-top">
+      <view class="title">活动类型</view>
+      <picker bindchange="bindchangepick" value="{{part}}" range="{{partpicker}}" name="part">
+        {{partpicker[part]}}
+      </picker>
+    </view>
+    <view class="cu-form-group margin-top">
+      <view class="title">承办单位</view>
+      <picker bindchange="bindOwnerChange" value="{{owner}}" range="{{owners}}" name="owner">
+        {{owners[owner]}}
+      </picker>
+    </view>
+    <view class="cu-form-group margin-top">
+      <textarea placeholder="请输入活动详细信息" name="content"></textarea>
+    </view>
+    <view class="image_content">
+      <view wx:for="{{img_url}}">
+        <image src="{{item}}" style="width:98px;height:98px"></image>
+      </view>
+      <view style='display:{{hideAdd?"none":"block"}}'>
+        <image bindtap="chooseimage" src='cloud://service-ee-s9uci.7365-service-ee-s9uci-1300243890/img/add.jpg' style='width:98px;height:98px'></image>
+      </view>
+    </view>
+  </view>
+  <view class="v">
+    <button class="btn" hover-class="btn-hover" form-type="submit">提交</button>
+  </view>
+</form>

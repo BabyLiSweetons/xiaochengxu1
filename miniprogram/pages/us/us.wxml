@@ -1,0 +1,22 @@
+<!--pages/us/us.wxml-->
+<view class="v1">
+  <view class="v2">
+    <text class="t1">校园活动分享平台</text>
+  </view>
+  <view class="v3">
+    <text class="t3">活动发布者：\n</text>
+    <text class="t2">学校二级学院、各大学生组织、学生社团\n\n</text>
+    <text class="t3">用户：\n</text>
+    <text class="t2">学生\n\n</text>
+    <text class="t3">目的：\n</text>
+    <text class="t2">校园活动多样精彩，有时一些活动无法准确传达或分享给同学，此平台可让大家更好、更方便快捷地宣传和发布活动，快速获得学校活动的信息。\n\n</text>
+    <text class="t3">功能：\n</text>
+    <text class="t2">1.活动按活动类别分类成板块，以便同学们找到想要了解的活动；\n</text>
+    <text class="t2">2.可对依据活动标题和时间对活动进行快速搜索，更快速查找到所需活动项；\n</text>
+    <text class="t2">3.活动发布者可查看自己发布过的活动；\n</text>
+    <text class="t2">4.作为用户，可以发布活动。\n\n</text>
+    <text class="t3">小组开发人员：\n</text>
+    <text class="t2">前端组：张琼丹、郭杰鸿、郑伟宏、吴俊芳\n</text>
+    <text class="t2">后端组：钟健生\n</text>
+  </view>
+</view>

@@ -1,0 +1,34 @@
+<!--pages/help/help.wxml-->
+<scroll-view class="v1">
+  <view class="v3">
+    <text class="t1">Instructions</text>
+  </view>
+  <view class="v4">
+    <view class="v2">
+      <text class="t2">1.发布活动\n\n</text>
+      <text class="t3">在“发布活动”处填写表单，输入活动的标题、时间、地点、活动对象、活动内容、活动类型、承办单位等信息，可加入图片。</text>
+    </view>
+    <view class="v2">
+       <text class="t2">2.浏览活动\n\n</text>
+       <text class="t3">点击底部导航“活动”可以看到活动浏览界面，在这里，你可以根据导航“最新”、“文艺”、“体育”、“学术”、“社会公益”分类浏览校园活动。</text>
+    </view>
+    <view class="v2">
+      <text class="t2">3.搜索活动\n\n</text>
+      <text class="t3">在活动浏览界面有搜索框，输入标题或时间可以模糊搜索到相关的校园活动信息。</text>
+    </view>
+    <view class="v2">
+      <text class="t2">4.查看发布过的活动\n\n</text>
+      <text class="t3">点击“我发布的活动”，可以列表的形式查看您曾发布过的活动。</text>
+    </view>
+    <view class="v5">
+      <text class="t2">5.发布活动表单填写注意事项\n\n</text>
+      <text class="t3">活动标题：完整标题，以便同学获取更全面的信息;\n</text>
+      <text class="t3">活动时间：根据下拉框选择年份、月份、日期和具体开始时间;\n</text>
+      <text class="t3">活动地点：完整地点信息，以便同学不会跑错地点噢;\n</text>
+      <text class="t3">活动对象：请选择“全体师生”选项或选择具体学院和年级限制;\n</text>
+      <text class="t3">活动类型：根据下拉框选择文艺类、体育类、学术类、社会公益类，活动进行分类方便同学搜索查询;\n</text>
+      <text class="t3">承办单位：根据下拉框选择具体的承办单位名称;\n</text>
+      <text class="t3">活动内容：活动详细信息输入框，可填写活动报名方式、活动注意事项、活动征集人数等详细信息。\n</text>
+    </view>
+  </view>
+</scroll-view>

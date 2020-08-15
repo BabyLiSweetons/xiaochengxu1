@@ -1,0 +1,12 @@
+<block wx:for="{{list}}">
+<view class='wx-cards-title-card' bindtap="skip" id="{{index}}">
+  <view class='title'>
+    <!-- {{title}} -->
+    <text>{{item.title}}</text>
+  </view>
+  <view class='context'>
+    <!-- {{context}} -->
+    <text>{{item.date}}</text>
+  </view>
+</view>
+</block>

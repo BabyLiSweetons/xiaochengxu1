@@ -1,0 +1,6 @@
+{
+    "van-field": "vant-weapp/field/index",
+    "navigationBarTitleText": "活动浏览",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+}

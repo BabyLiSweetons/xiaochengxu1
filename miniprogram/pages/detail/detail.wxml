@@ -1,0 +1,12 @@
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>{{title}}</view>
+  <view class='text-content'>
+    <view>{{content}}</view>
+    <view class='margin-top-sm'>活动日期:{{date}}</view>
+    <view class='margin-top-sm'>面向对象:{{object}}</view>
+    <view class='margin-top-sm'>类别:{{part}}</view>
+  </view>
+  <block wx:for="{{imgurl}}">
+  <image src="{{item}}" style="width:98px;height:98px"></image>
+  </block>
+</view>

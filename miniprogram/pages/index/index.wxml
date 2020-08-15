@@ -1,0 +1,42 @@
+<view class="cu-bar search bg-white">
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="搜索标题、时间" confirm-type="search" bindinput="key" bindconfirm="search"></input>
+    </view>
+    <view class="action">
+      <button class="cu-btn bg-blue shadow-blur round" bindtap="search">搜索</button>
+    </view>
+  </view>
+
+<scroll-view scroll-x class="bg-white nav" scroll-with-animation scroll-left="{{scrollLeft}}">
+<view class="cu-item {{0==TabCur?'text-blue cur':''}}" bindtap="tabSelect" data-id="0">
+    最新
+  </view>
+  <view class="cu-item {{1==TabCur?'text-blue cur':''}}" bindtap="tabSelect" data-id="1">
+    文艺
+  </view>
+  <view class="cu-item {{2==TabCur?'text-blue cur':''}}" bindtap="tabSelect" data-id="2">
+    体育
+  </view>
+  <view class="cu-item {{3==TabCur?'text-blue cur':''}}" bindtap="tabSelect" data-id="3">
+    学术
+  </view>
+  <view class="cu-item {{4==TabCur?'text-blue cur':''}}" bindtap="tabSelect" data-id="4">
+    社会公益
+  </view>
+</scroll-view>
+
+<block wx:for="{{list}}">
+<view class='wx-cards-title-card' bindtap="skip" id="{{index}}">
+  <view class='title'>
+    <!-- {{title}} -->
+    <text>{{item.title}}</text>
+  </view>
+  <view class='context'>
+    <!-- {{context}} -->
+    <text>{{item.date}}</text>
+  </view>
+</view>
+</block>
+<!-- 回到顶部 -->
+<image src='cloud://service-ee-s9uci.7365-service-ee-s9uci-1300243890/top.png' class='goTop' hidden='{{!floorstatus}}' bindtap="goTop"></image>

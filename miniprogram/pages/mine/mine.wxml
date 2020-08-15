@@ -1,0 +1,36 @@
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data  type="userAvatarUrl"></open-data>
+  </view>
+    <open-data type="userNickName"></open-data>
+</view>
+<view>
+  <view class="v">
+    <button bindtap="jump" class="btn">
+      <icon class="iconfont icon-tianjia" style="font-size:23px;color:blue" display="block"></icon>
+        <text class="t">发布活动</text>
+      <icon class="iconfont icon-arrow-r" style="font-size:20px;color:grey;float:right" display="block"></icon>
+    </button>
+  </view>
+  <view class="v">
+     <button bindtap="showLast" class="btn">
+        <icon class="iconfont icon-dingdan" style="font-size:23px;color:blue" display="block"></icon>
+          <text class="t">我发布的活动</text>
+        <icon class="iconfont icon-arrow-r" style="font-size:20px;color:grey;float:right" display="block"></icon>
+      </button>
+  </view>
+  <view class="v">
+     <button bindtap="jump_3" class="btn">
+      <icon class="iconfont icon-danyehuaban2" style="font-size:23px;color:blue" display="block"></icon>
+       <text class="t">使用帮助</text>
+      <icon class="iconfont icon-arrow-r" style="font-size:20px;color:grey;float:right" display="block"></icon>
+      </button>
+  </view>
+  <view class="v">
+     <button bindtap="jump_4" class="btn">
+      <icon class="iconfont icon-tubiao-" style="font-size:23px;color:blue" display="block"></icon>
+       <text class="t">关于我们</text>
+     <icon class="iconfont icon-arrow-r" style="font-size:20px;color:grey;float:right" display="block"></icon>
+     </button>
+  </view>
+</view>

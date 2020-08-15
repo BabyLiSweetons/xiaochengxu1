@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/detail/detail",
+    "pages/newdata/newdata",
+    "pages/help/help",
+    "pages/us/us",
+    "pages/return/return"
+  ],
+  "usingComponents": {
+    "van-field": "vant-weapp/field/index"
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "活动发布平台",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#2c2c2c",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "活 动",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.1.png",
+        "selectedColor": "#accbebc2"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我 的",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2.1.png",
+        "selectedColor": "#accbebc2"
+      }
+    ]
+  }
+}
